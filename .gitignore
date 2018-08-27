@@ -1,5 +1,7 @@
-/target/
+target/
+/src/main/webapp/WEB-INF/classes
 !.mvn/wrapper/maven-wrapper.jar
+.class
 
 ### STS ###
 .apt_generated
@@ -22,4 +24,5 @@
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
+/.nb-gradle/classes\
+classes\
