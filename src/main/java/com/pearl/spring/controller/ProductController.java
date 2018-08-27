@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Scope(value = "session")
 @Component(value = "productController")
 @ELBeanName(value = "productController")
-@Join(path = "/product", to = "/product-form.jsf")
+@Join(path = "/add_product", to = "/product-form.jsf")
 public class ProductController {
 	@Autowired
 	private ProductRepository productRepository;
